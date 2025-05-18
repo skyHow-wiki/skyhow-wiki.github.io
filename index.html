@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>skyHow: The free, open-source wikiHow alternative</title>
+        <link rel="icon" href="https://static.wikioasis.org/howtowiki/8/83/SkyHow_icon.svg" type="image/svg+xml">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="fonts.css" type="text/css">
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            'primary1': '#1cf',
+                            'primary2': '#0af',
+                            'primary-dark1': '#09c',
+                            'primary-dark2': '#07c',
+                            'primary-darker1': '#069',
+                            'primary-darker2': '#049',
+                            'primary-darkest1': '#036',
+                            'primary-darkest2': '#026',
+                            'primary-light1': '#4df',
+                            'primary-light2': '#2cf',
+                            'primary-lighter1': '#8ef',
+                            'primary-lighter2': '#8df',
+                            'primary-lightest1': '#cff',
+                            'primary-lightest2': '#cef'
+                        },
+                        fontFamily: {
+                            'sans': ["nbsp-hotfix", "Gotham", "Helvetica Neue", "sans-serif"],
+                            'mono': ["Roboto Mono", "Courier", "Courier New", "monospace"],
+                            'icon': ['Material Symbols Outlined']
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body class="bg-white font-sans text-gray-950">
+        <header class="bg-white/75 border-b-4 border-b-[#1cf] flex flex-row items-center fixed top-0 w-full z-50 backdrop-blur">
+            <a href="https://howto.wikioasis.org">
+                <img src="https://static.wikioasis.org/howtowiki/a/ac/SkyHow_logo.svg" alt="skyHow logo" class="hidden sm:inline-block w-48 h-12 m-4">
+                <img src="https://static.wikioasis.org/howtowiki/8/83/SkyHow_icon.svg" alt="skyHow icon" class="inline-block sm:hidden w-12 h-12 m-4 mr-0 sm:mr-4">
+            </a>
+            <a href="https://howto.wikioasis.org" class="text-lg m-1 sm:m-2 font-medium">Wiki</a>
+            <a href="https://howto.wikioasis.org/wiki/Special:Random" class="text-lg m-1 sm:m-2 font-medium">Random</a>
+            <div class="flex-1"></div>
+            <a href="https://howto.wikioasis.org/wiki/Special:UserLogin" class="text-lg m-2 font-medium p-2 sm:px-4 rounded border border-[#1cf]">Log in</a>
+            <a href="https://howto.wikioasis.org/wiki/Special:CreateAccount" class="text-lg m-2 font-medium p-2 sm:px-4 rounded text-white border border-[#1cf] bg-[#1cf] hover:bg-[#09c] hover:border-[#09c] transition">Sign up</a>
+        </header>
+        <main class="max-w-screen-xl mx-auto p-8 pt-24">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="text-center md:text-left">
+                    <h1 class="text-2xl lg:text-3xl font-medium m-4">
+                        Forget the proprietary wikiHow!<br />
+                        <span class="text-3xl lg:text-4xl font-bold">Welcome to the open-source how-to manual, skyHow!</span>
+                    </h1>
+                    <p class="text-lg m-4">
+                        A free, open-source alternative to wikiHow, built by the community for the community.
+                    </p>
+                    <div class="mx-2 flex flex-wrap items-center justify-center md:justify-start">
+                        <a href="https://howto.wikioasis.org/" class="text-lg m-2 font-medium p-2 sm:px-4 rounded border border-[#1cf]">Go into the wiki</a>
+                        <a href="https://howto.wikioasis.org/wiki/Special:UserLogin" class="text-lg m-2 font-medium px-4 py-2 rounded border border-[#1cf]">Log in</a>
+                        <a href="https://howto.wikioasis.org/wiki/Special:CreateAccount" class="text-lg m-2 font-medium px-4 py-2 rounded text-white border border-[#1cf] bg-[#1cf] hover:bg-[#09c] hover:border-[#09c] transition">Sign up</a>
+
+                    </div>
+                </div>
+                <img src="https://static.wikioasis.org/howtowiki/a/ac/SkyHow_logo.svg" alt="skyHow logo" class="w-72 lg:w-96 h-24 mr-4 my-8">
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/2025-04-29_skyHow_screenshot.jpg" alt="skyHow screenshot" class="w-full h-auto rounded shadow-lg max-w-screen-lg mx-auto my-4">
+            <h2 class="text-2xl lg:text-3xl font-medium m-4">
+                Why use skyHow instead of wikiHow?
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 m-4 *:rounded *:border *:p-4 *:border-gray-300">
+                <div>
+                    <h3 class="text-xl font-bold m-2">Completely free to use</h3>
+                    <p class="m-2">
+                        skyHow is completely free to use. Although wikiHow restricts access to some features to a paid subscription, skyHow doesn't.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold m-2">Free license</h3>
+                    <p class="m-2">
+                        Content on skyHow is released under <a class="text-[#1cf]" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0</a>, allowing anyone to use, modify, and distribute it without restrictions.
+                    </p>
+                    <p class="m-2">
+                        On the other hand, content on wikiHow is licensed under a proprietary license, which prohibits reuse of wikiHow content outside wikiHow.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold m-2">Powered by the latest MediaWiki</h3>
+                    <p class="m-2">
+                        skyHow is built on the latest version of MediaWiki (currently version 1.43.1), the same software that powers Wikipedia. This means you get all the features and benefits of a robust, proven platform.
+                    </p>
+                    <p class="m-2">
+                        While wikiHow is built on MediaWiki, it runs on an older version of MediaWiki (1.33.0), which was released in 2019 and is no longer supported. skyHow gets the latest MediaWiki features that wikiHow doesn't.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="max-width-screen-xl mx-auto p-8 border-t border-[#1cf]">
+            <p class="text-center text-gray-500">
+                skyHow is a free, open-source alternative to wikiHow, built by the community for the community. It is not affiliated with wikiHow in any way.
+            </p>
+            <p class="text-center text-gray-500">
+                skyHow is powered by <a href="https://www.mediawiki.org/" target="_blank" rel="noopener noreferrer" class="text-[#1cf]">MediaWiki</a>, the same software that powers Wikipedia.
+            </p>
+            <p class="text-center text-gray-500">
+                &copy; 2025 skyHow. skyHow is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" class="text-[#1cf]">Creative Commons Attribution-ShareAlike 4.0</a>.
+            </p>
+        </footer>
+    </body>
+</html>
