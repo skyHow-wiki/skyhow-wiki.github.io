@@ -87,53 +87,149 @@
                 <li>Anyone, even non-registered users, can edit articles</li>
                 <li>Latest MediaWiki version</li>
             </ul>
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4">Latest version of MediaWiki installed</h2>
+            <p class="mb-4">
+                skyHow is built on the latest version of <a href="https://www.mediawiki.org/" target="_blank" rel="noopener noreferrer" class="text-[#1cf]">MediaWiki</a> (currently 1.43.1), the same software that powers Wikipedia. This means you get all the latest features, security updates, and performance improvements. On the other hand, wikiHow is still running on an outdated version of MediaWiki (1.33.0), which is no longer supported. This can lead to security vulnerabilities and a lack of new features.
+            </p>
+            <div class="flex flex-col md:flex-row items-center justify-center mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2025-05-29_skyHow_MediaWiki_version.png/1280px-2025-05-29_skyHow_MediaWiki_version.png" alt="Special:Version on skyHow, showing the latest MediaWiki version" class="w-full md:w-1/2 mb-4 rounded shadow-lg">
+                <table class="w-full md:w-1/2 border-separate border-spacing-0 border border-[#1cf] rounded overflow-hidden text-center m-4 text-sm sm:text-base">
+                    <caption class="p-2 font-medium">
+                        <p class="text-lg font-bold">MediaWiki version list</p>
+                        <p>Green row = used on wikiHow</p>
+                        <p>Blue row = used on skyHow</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-green-100"></div>Green cell = latest version</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-lime-100"></div>Lime cell = not the latest version but still supported</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-yellow-100"></div>Yellow cell = support ends in 6 months or less</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-amber-100"></div>Amber cell = support ends in 3 months or less</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-orange-100"></div>Orange cell = support ends in 1 month or less</p>
+                        <p><div class="w-4 h-4 border border-black mx-1 inline-block bg-red-100"></div>Red cell = no longer supported</p>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="min-w-20 p-1 border-b border-gray-300">MediaWiki version</th>
+                            <th class="min-w-20 p-1 border-b border-gray-300">Released</th>
+                            <th class="min-w-20 p-1 border-b border-gray-300">End of life</th>
+                            <th class="min-w-20 p-1 border-b border-gray-300">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-lime-50">
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.33</td>
+                            <td class="p-1 text-center">July 2, 2019</td>
+                            <td class="p-1 text-center">June 6, 2020</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.34</td>
+                            <td class="p-1 text-center">December 19, 2019</td>
+                            <td class="p-1 text-center">November 30, 2020</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.35</td>
+                            <td class="p-1 text-center">September 20, 2020</td>
+                            <td class="p-1 text-center">December 21, 2023</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.36</td>
+                            <td class="p-1 text-center">May 27, 2021</td>
+                            <td class="p-1 text-center">June 3, 2022</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.37</td>
+                            <td class="p-1 text-center">November 18, 2021</td>
+                            <td class="p-1 text-center">November 30, 2022</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.38</td>
+                            <td class="p-1 text-center">June 2, 2022</td>
+                            <td class="p-1 text-center">June 30, 2023</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.39</td>
+                            <td class="p-1 text-center">November 30, 2022</td>
+                            <td class="p-1 text-center italic text-gray-600">November 2025</td>
+                            <td class="p-1 text-center bg-yellow-100 color-yellow-800">Support ending in 6 months</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.40</td>
+                            <td class="p-1 text-center">June 30, 2023</td>
+                            <td class="p-1 text-center">June 28, 2024</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.41</td>
+                            <td class="p-1 text-center">December 21, 2023</td>
+                            <td class="p-1 text-center">December 30, 2024</td>
+                            <td class="p-1 text-center bg-red-100 color-red-800">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.42</td>
+                            <td class="p-1 text-center">June 27, 2024</td>
+                            <td class="p-1 text-center">June 2025</td>
+                            <td class="p-1 text-center bg-orange-100 color-orange-800">Support ending in 1 month</td>
+                        </tr>
+                        <tr class="bg-sky-50">
+                            <td class="p-1 font-medium border-r border-r-gray-300">1.43</td>
+                            <td class="p-1 text-center">May 27, 2021</td>
+                            <td class="p-1 text-center">June 3, 2022</td>
+                            <td class="p-1 text-center bg-green-100 color-green-800">Supported, latest version</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <h2 class="text-2xl sm:text-3xl font-bold mb-4">Compare skyHow vs wikiHow</h2>
-            <table class="w-full text-left border-collapse rounded shadow-lg overflow-hidden">
+            <table class="w-full text-left border-separate border-spacing-0 border border-[#1cf] rounded overflow-hidden text-sm">
                 <thead>
-                    <tr class="border-b border-gray-300">
-                        <th class="p-2">Feature</th>
-                        <th class="p-2 text-center">wikiHow</th>
-                        <th class="p-2 text-center text-lg">skyHow</th>
+                    <tr>
+                        <th class="p-2 border-b border-gray-300">Feature</th>
+                        <th class="p-2 text-center border-b border-gray-300">wikiHow</th>
+                        <th class="p-2 text-center text-base border-b border-gray-300">skyHow</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="p-2 font-medium border-r border-r-gray-300">Price</td>
                         <td class="p-2 text-center"> 
-                            <p class="text-lg font-medium">$<span class="text-4xl">0</span>/mo</p>
+                            <p class="text-base font-medium">$<span class="text-2xl sm:text-3xl">0</span>/mo</p>
                             <p>Pro membership:</p>
-                            <p class="text-lg font-medium">$<span class="text-4xl">4.99</span>/mo</p>
-                            <p class="font-medium">$<span class="text-3xl">34.99</span>/yr</p>
+                            <p class="text-base font-medium">$<span class="text-2xl sm:text-3xl">4.99</span>/mo</p>
+                            <p class="font-medium">$<span class="text-xl sm:text-2xl">34.99</span>/yr</p>
                         </td>
                         <td class="p-2 text-center"> 
-                            <p class="text-xl font-medium">$<span class="text-5xl">0</span>/mo</p>
-                            <p class="text-lg">Free forever!</p>
+                            <p class="text-lg font-medium">$<span class="text-3xl sm:text-4xl">0</span>/mo</p>
+                            <p class="text-base">Free forever!</p>
                         </td>
                     </tr>
                     <tr>
                         <td class="w-1/5 p-2 font-medium border-r border-r-gray-300">All content under Creative Commons license?</td>
                         <td class="w-2/5 p-2 text-center bg-red-100 text-red-800">No</td>
-                        <td class="w-2/5 p-2 text-center text-lg bg-green-100 text-green-800">Yes</td>
+                        <td class="w-2/5 p-2 text-center text-base bg-green-100 text-green-800">Yes</td>
                     </tr>
                     <tr>
                         <td class="p-2 font-medium border-r border-r-gray-300">License type</td>
                         <td class="p-2 text-center">Proprietary</td>
-                        <td class="p-2 text-center text-lg">Creative Commons Attribution-ShareAlike 4.0</td>
+                        <td class="p-2 text-center text-base">Creative Commons Attribution-ShareAlike 4.0</td>
                     </tr>
                     <tr>
                         <td class="p-2 font-medium border-r border-r-gray-300">Open-source components?</td>
                         <td class="p-2 text-center bg-amber-100 text-amber-800">Partial; only MediaWiki and some extensions</td>
-                        <td class="p-2 text-center text-lg bg-green-100 text-green-800">Yes</td>
+                        <td class="p-2 text-center text-base bg-green-100 text-green-800">Yes</td>
                     </tr>
                     <tr>
                         <td class="p-2 font-medium border-r border-r-gray-300">Ads?</td>
                         <td class="p-2 text-center bg-red-100 text-red-800">Yes (logged-out users only)<br>No with pro membership</td>
-                        <td class="p-2 text-center text-lg bg-green-100 text-green-800">No ads!</td>
+                        <td class="p-2 text-center text-base bg-green-100 text-green-800">No ads!</td>
                     </tr>
                     <tr>
                         <td class="p-2 font-medium border-r border-r-gray-300">MediaWiki version</td>
                         <td class="p-2 text-center bg-red-100 text-red-800">1.33.0 (Unsupported)</td>
-                        <td class="p-2 text-center text-lg bg-green-100 text-green-800">1.43.1 (Support, latest version)</td>
+                        <td class="p-2 text-center text-base bg-green-100 text-green-800">1.43.1 (Supported, latest version)</td>
                     </tr>
                 </tbody>
             </table>
